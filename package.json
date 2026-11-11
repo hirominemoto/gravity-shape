@@ -1,0 +1,14 @@
+{
+  "name": "shape-of-gravity",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bundle": "esbuild src/main.js --bundle --minify --outfile=bundle.js",
+    "music": "node make-music.mjs",
+    "video": "node make-video.mjs"
+  },
+  "devDependencies": {
+    "three": "^0.187.0",
+    "esbuild": "^0.28.2"
+  }
+}
